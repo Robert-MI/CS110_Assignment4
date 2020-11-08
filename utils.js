@@ -27,6 +27,9 @@ function printAsMatrix(matrix){
        }
 }
 function Matsum(m1, m2){
+   if(m1.length !== m2.length || m1[0] !== m2[0]){
+        console.log("not defined");
+    }else{
    let msum = [];
     for(let r = 0; r < m1.length; r++){
        msum[r] = [];
@@ -37,7 +40,7 @@ function Matsum(m1, m2){
         }
     }
     return printAsMatrix(msum);
-}
+}}
 function SumOfEachRow(matrix){ 
        let result = [];
        for(let row=0; row < matrix.length; row++){
