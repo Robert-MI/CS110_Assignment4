@@ -5,7 +5,7 @@ module.exports = {
 }
 function Matmultiple(mat1, mat2) {
     if(mat1[0].length !== mat2.length){
-      return "not defined"  
+      console.log("not defined");  
     }else{
    let result = [];
    for (let row = 0; row < mat1.length; row++) {
