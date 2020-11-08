@@ -27,7 +27,7 @@ function printAsMatrix(matrix){
        }
 }
 function Matsum(m1, m2){
-   if(m1.length !== m2.length || m1[0] !== m2[0]){
+   if(m1.length !== m2.length || m1[0].lenght !== m2[0].lenght){
         console.log("not defined");
     }else{
    let msum = [];
